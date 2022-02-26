@@ -11,6 +11,7 @@ For deferred synchronous RPC, the client w ill be interrupted to return the RPC 
 
 uses RPyC package for achieving the desired results.
 The aysnc results are stored in sqlite db names results.
+Setup sql tables "results" and serted_res if not exists.
 
 * Run the server with python server.py on port 18861
   ### Add:
