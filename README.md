@@ -13,6 +13,10 @@ uses RPyC package for achieving the desired results.
 The aysnc results are stored in sqlite db names results.
 Setup sql tables "results" and serted_res if not exists.
 
+Git clone the repo and create a virtual environment and install requirements
+using pip install -r requirements.txt.
+To setup tables, run db1.py , db2.py, it will create the tables.
+
 * Run the server with python server.py on port 18861
   ### Add:
       Tables: results.db
